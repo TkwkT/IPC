@@ -114,11 +114,11 @@ SharedPreferences相关官方文档： [SharedPreferences](https://developer.and
 
 AIDL全名，接口描述语言，AIDL文件的创建方法如下图，这样就可以创建一个AIDL文件了。
 
-<img src="C:\Users\TKW\AppData\Roaming\Typora\typora-user-images\1569750038791.png" alt="1569750038791"  />
+<img src="https://github.com/TkwkT/IPC/blob/master/picture/1569750038791.png" alt="1569750038791"  />
 
 生成的文件内容如下图
 
-![1569750713456](C:\Users\TKW\AppData\Roaming\Typora\typora-user-images\1569750713456.png)
+![1569750713456](https://github.com/TkwkT/IPC/blob/master/picture/1569750713456.png)
 
 其中只有一个方法，basicTypes()，这个方法没什么用处，可直接删掉。
 
@@ -186,11 +186,11 @@ AIDL全名，接口描述语言，AIDL文件的创建方法如下图，这样就
 
   那这个数据嘞类该怎么使用呢，使用方法如下：
   
-  ![1569913161634](C:\Users\TKW\AppData\Roaming\Typora\typora-user-images\1569913161634.png)
+  ![1569913161634](https://github.com/TkwkT/IPC/blob/master/picture/1569913161634.png)
   
   先在AIDL文件中创建相同的包结构，然后下方只需要 parcelable 类名 就行，注意parcelable是小写字母开头。
   
-  ![1569913241908](C:\Users\TKW\AppData\Roaming\Typora\typora-user-images\1569913241908.png)
+  ![1569913241908](https://github.com/TkwkT/IPC/blob/master/picture/1569913241908.png)
   
   这样就可以在接口中使用改数据类了。
 
