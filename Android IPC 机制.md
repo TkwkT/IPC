@@ -1,4 +1,4 @@
-##Android IPC 机制
+## Android IPC 机制
 
 ###  一、跨进程通信方式
 
